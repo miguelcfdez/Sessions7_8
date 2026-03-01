@@ -1,9 +1,9 @@
 n = 0
 while n < 10:
     print (n)
-    n = n + 1
+    n += 1
 
-for i in range(10):
+for i in range(10): # default start is 0
     print (i)
 
 for i in range(0,10,1): # explicit, 0 is default start, +1 is default increment

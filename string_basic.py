@@ -36,4 +36,3 @@ for c in s1:
         print(c, end="")
 print()
 
-
