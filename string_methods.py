@@ -17,11 +17,11 @@ emails = "bob@gmail.com and then we have alice@yahoo.com"
 print(emails.count("@"))
 
 while True:
-    pos = emails.find("@", pos)
-    if pos ==-1:
+    pos = emails.find("@")
+    if pos == 3:
         break
     print("Found the email at position", pos)
-    pos += 1
+    pos += 1 ## it does not work¿?
 
 # replace will replace part of the string with another one
 print(s)
